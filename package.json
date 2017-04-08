@@ -1,0 +1,19 @@
+{
+  "name": "recipe_app",
+  "version": "1.0.0",
+  "description": "This is a simple one page app in which we can post recipes of various dishes by providing its name,ingredients,and directions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsingh41/recipe_app.git"
+  },
+  "author": "navjot singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsingh41/recipe_app/issues"
+  },
+  "homepage": "https://github.com/nsingh41/recipe_app#readme"
+}
