@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-size:4rem;
+	color: #458B00;}
+
+h2{
+	color: #78AB46;
+}
+
+h3{
+	color: #458B00;
+}
+
+p{
+
+	font-size: 1.2rem;
+}
+
+.container{
+
+font-family: "Cuprum";
+  background: #e0e0e0;
+  padding-top:3rem;
+  padding-bottom: 3rem;
+}
+#srchbtn{
+	width:6rem;
+	height:26px;
+	text-align: center;
+	width:20rem;
+	height:2rem;
+	font-family: "Cuprum";
+}
+label{
+	display:block;
+	color: #78AB46;
+	text-transform: capitalize;
+	font-size: 1.8rem;
+	margin-bottom: 5px;
+	margin-top:12px;
+}
+
+.label{
+
+	font-family:"Cuprum";
+	color: black;
+	font-size:  1.5rem;}
+
+
+input[type="text"]{
+	height:20px;
+	width: 20rem;
+}
+
+textarea{
+
+	width:20rem;
+	height:7rem;
+}
+button{
+	cursor: pointer;
+	width:20rem;
+	height:30px;
+	margin-top: 8px;
+	margin-bottom: 2rem;
+	font-family: "Cuprum";
+
+}
+select{
+	display: block;
+	width:20rem;
+	height:1.7rem;
+}
+
+.innercontainer{
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-left:5%;
+	padding-right: 5%;
+	padding-bottom: 2rem;
+	width:70%;
+	margin:0 auto;
+	max-width: 500px;
+	background-color: rgba(254,252,224,0.8)
+}
+
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+h2{
+	margin: 0;
+}

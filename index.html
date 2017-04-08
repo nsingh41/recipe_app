@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Recipe app</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  <div class="container">
+    
+ <div class="innercontainer"><h1>Recipe Book</h1></div>
+<div class="innercontainer" id="upper">
+
+<h2>Search Your Recipe here..</h2>
+   <input type="text" id="search" placeholder="Recipe Name">
+  <button id="srchbtn">Search</button>
+</div>
+  
+  
+  <div class="innercontainer" id="innercontainer">
+  <h2>Add Your Recipe here..</h2>
+  <label class="label">Recipe name</label>
+  <input type="text" id="name">
+  <label class="label">ingredients</label>
+  <textarea id="ingridents"></textarea>
+  <label class="label">directions</label>
+  <textarea id="directions"></textarea>
+  <label class="label">Select Image</label>
+  <select id="img">
+  	
+  	<option value="img/chocolate.jpg">chocolate</option>
+  	<option value="img/noodles.jpg">noodles</option>
+  	<option value="img/pavbhaji.jpg">pavbhaji</option>
+    <option value="img/pasta.jpg">pasta</option
+    <option value="img/chickentikka.jpg">chickentikka</option>    
+  </select>
+  <button id="btn">ADD</button>
+  </div>
+  </div>
+  <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
